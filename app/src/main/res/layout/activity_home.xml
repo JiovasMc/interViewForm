@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <!-- Card contenedor -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:backgroundTint="#F8F9FA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center">
+
+            <!-- Título de bienvenida -->
+            <!--android:text="🎉 ¡Bienvenido!"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bienvenido_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Foto de perfil -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/user_photo_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_person_placeholder"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                android:background="#E3F2FD" />
+
+            <!-- Nombre del usuario -->
+            <TextView
+                android:id="@+id/user_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hola_usuario_text"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#1565C0"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Email del usuario -->
+<!--            <TextView-->
+<!--                android:id="@+id/user_email_text"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="email@ejemplo.com"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textColor="#666666"-->
+<!--               android:layout_marginBottom="32dp" />-->
+
+            <!-- Información adicional -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sesion_correcta_ic"
+                android:textSize="14sp"
+                android:textColor="#4CAF50"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Botón de Entrevista -->
+            <Button
+                android:id="@+id/interview_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/llenar_formulario_ic"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="12dp"
+                app:cornerRadius="12dp" />
+
+            <!-- Botón de Consultar Entrevistas -->
+            <Button
+                android:id="@+id/view_interviews_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/entrvistas_realizadas_ic"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#FF9800"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="12dp"
+                app:cornerRadius="12dp" />
+
+            <!-- Botón de cerrar sesión -->
+            <Button
+                android:id="@+id/sign_out_button"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/cerrar_sesion_button"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#F44336"
+                android:textColor="@android:color/white"
+                app:cornerRadius="12dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Información de debug -->
+<!--    android:text="🔧 Pantalla principal - Dashboard"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pantalla_principal_dashboard_text"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+</LinearLayout>

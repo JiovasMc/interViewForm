@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    &lt;!&ndash; Opción 1: Azul corporativo a gris claro &ndash;&gt;-->
+<!--    <gradient-->
+<!--        android:type="linear"-->
+<!--        android:angle="135"-->
+<!--        android:startColor="#1E40AF"-->
+<!--        android:endColor="#F8FAFC"/>-->
+
+<!--    &lt;!&ndash; Opción 2: Azul oscuro a azul claro (muy empresarial) &ndash;&gt;-->
+<!--    <gradient-->
+<!--        android:type="linear"-->
+<!--        android:angle="120"-->
+<!--        android:startColor="#0F172A"-->
+<!--        android:endColor="#3B82F6"/>-->
+
+    <!-- Opción 3: Púrpura moderno a azul -->
+    <gradient
+        android:type="linear"
+        android:angle="100"
+        android:startColor="#6366F1"
+        android:endColor="#8B5CF6"/>
+
+<!--    &lt;!&ndash; Opción 4: Verde corporativo a azul &ndash;&gt;-->
+<!--    <gradient-->
+<!--        android:type="linear"-->
+<!--        android:angle="110"-->
+<!--        android:startColor="#059669"-->
+<!--        android:endColor="#0EA5E9"/>-->
+
+<!--    &lt;!&ndash; Opción 5: Gris oscuro a azul suave (muy profesional) &ndash;&gt;-->
+<!--    <gradient-->
+<!--        android:type="linear"-->
+<!--        android:angle="135"-->
+<!--        android:startColor="#374151"-->
+<!--        android:endColor="#E0F2FE"/>-->
+
+</shape>

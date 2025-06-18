@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/login_background">
+
+    <!-- View específico para el fondo animado -->
+<!--    <View-->
+<!--        android:id="@+id/background_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/animated_bubble_background" />-->
+
+    <com.example.interviewform2.BubbleAnimationView
+        android:id="@+id/bubble_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesion"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:layout_margin="40dp"
+            android:gravity="center" />
+
+
+        <ImageView
+            android:id="@+id/icon_account_circle"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/icon_account_circle" />
+
+        <EditText
+            android:id="@+id/username_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="username"
+            android:background="#30ffffff"
+            android:hint="@string/usuario"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/icon_person_wh"
+            android:drawablePadding="10dp"/>
+
+        <!--            android:background="@drawable/rounded_corner"-->
+
+        <EditText
+            android:id="@+id/contrasenia_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:autofillHints="password"
+            android:background="#30ffffff"
+            android:hint="@string/contrasenia"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/icon_passkey_wh"
+            android:drawableEnd="@drawable/ic_eye_off_white"
+            android:drawablePadding="10dp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_marginTop="35dp"
+            android:textSize="20sp"
+            android:id="@+id/ingresar_btn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/olvidaste_contrasenia"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_social"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="8dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/logo_google"
+                android:id="@+id/google_btn"/>
+
+<!--            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                android:layout_width="64dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:layout_margin="16dp"-->
+<!--                android:src="@drawable/logo_facebook_azul"-->
+<!--                android:id="@+id/facebook_btn"/>-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

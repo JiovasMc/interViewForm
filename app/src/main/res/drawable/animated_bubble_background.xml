@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:duration="3000">
+        <layer-list>
+            <!-- Gradiente base -->
+            <item>
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:type="linear"
+                        android:angle="100"
+                        android:startColor="#6366F1"
+                        android:endColor="#8B5CF6"/>
+                </shape>
+            </item>
+
+            <!-- Burbujas -->
+            <item android:top="32dp" android:left="50dp">
+                <shape android:shape="oval">
+                    <solid android:color="#20FFFFFF"/>
+                    <size android:width="60dp" android:height="60dp"/>
+                </shape>
+            </item>
+
+            <item android:top="300dp" android:left="200dp">
+                <shape android:shape="oval">
+                    <solid android:color="#15FFFFFF"/>
+                    <size android:width="40dp" android:height="40dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:duration="3000">
+        <layer-list>
+            <!-- Gradiente base -->
+            <item>
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:type="linear"
+                        android:angle="100"
+                        android:startColor="#6366F1"
+                        android:endColor="#8B5CF6"/>
+                </shape>
+            </item>
+
+            <!-- Burbujas en nueva posición -->
+            <item android:top="80dp" android:left="70dp">
+                <shape android:shape="oval">
+                    <solid android:color="#20FFFFFF"/>
+                    <size android:width="60dp" android:height="60dp"/>
+                </shape>
+            </item>
+
+            <item android:top="280dp" android:left="180dp">
+                <shape android:shape="oval">
+                    <solid android:color="#15FFFFFF"/>
+                    <size android:width="40dp" android:height="40dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</animation-list>

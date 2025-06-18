@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales del icono -->
+    <color name="icon_primary">#1565C0</color>
+    <color name="icon_secondary">#667eea</color>
+    <color name="icon_accent">#764ba2</color>
+    <color name="icon_success">#4CAF50</color>
+
+    <!-- Gradientes -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+<!--</resources>-->

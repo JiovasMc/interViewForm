@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">interViewForm2</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="olvidaste_contrasenia">¿Olvidastes la contraseña?</string>
+    <string name="iniciar_social">Iniciar con</string>
+
+
+    <string name="ic_basura">🗑️</string>
+    <string name="ic_ubicacion">🏙️</string>
+    <string name="ic_correo">📧</string>
+    <string name="ic_calendario">📅</string>
+    <string name="ic_portafolio">💼</string>
+    <string name="ic_educacion">🎓</string>
+    <string name="ic_idiomas">🗣️</string>
+    <string name="ic_target">🎯</string>
+    <string name="ic_habilidades">🛠️</string>
+    <string name="ic_libros">📚</string>
+    <string name="ic_empresa">🏢</string>
+    <string name="ic_telefono">📞</string>
+    <string name="ic_link">🔗</string>
+    <string name="ic_edit">📝</string>
+
+    <!-- Strings used for item_interview -->
+    <string name="ver_detalles">Ver Detalles</string>
+    <string name="grado_estudios">Grado de Estudios</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="fecha_1999">01/01/1999</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+
+    <!-- Strings used for dialog_interview_details -->
+    <string name="close">Cerrar</string>
+
+    <string name="edad">Edad</string>
+    <string name="telefono">Teléfono</string>
+    <string name="correo_electronico">Correo</string>
+
+    <string name="experiencia">Experiencia</string>
+    <string name="educacion">Educación</string>
+    <string name="area_interes">Área de Interés</string>
+    <string name="disponibilidad">Disponibilidad</string>
+    <string name="salario">Salario</string>
+    <string name="comentarios">Comentarios</string>
+
+    <string name="detalle_entrvista_ic">📋 Detalles de la Entrevista</string>
+    <string name="info_comentarios">Información de Comentarios</string>
+    <string name="info_personal_ic">👤 Información Personal</string>
+    <string name="info_laboral_ic">💼 Información Laboral</string>
+    <string name="fecha_registro_ic">📅 Fecha de registro:</string>
+    <string name="comentarios_ic">💬 Comentarios</string>
+
+    <!-- Strings used for activity_interviews_list -->
+    <string name="no_interviews_message">📝 No tienes entrevistas guardadas</string>
+    <string name="create_interview_button_text">📋 Crear Entrevista</string>
+    <string name="loading_text">🔄 Cargando entrevistas...</string>
+    <string name="empty_state_text">¡Crea tu primera entrevista!</string>
+    <string name="empty_state_subtext">¡Crea tu primera entrevista!</string>
+    <string name="back_button_text">Regresar</string>
+    <string name="my_interviews_title">📊 Mis Entrevistas</string>
+
+    <!-- Strings used for activity_interwiew_form -->
+    <string name="form_title">📋 Formulario de Entrevista</string>
+    <string name="loading_data_text">🔄 Cargando datos...</string>
+    <string name="save_interviews_button">💾 Guardar Entrevista</string>
+    <string name="cancel_button_text">Cancelar</string>
+    <string name="comentarios_adicionales_text">Comentarios Adicionales</string>
+    <string name="salario_esperado_text">Salario Esperado ($)</string>
+    <string name="disponibilidad_horaria_text">Disponibilidad Horaria</string>
+    <string name="area_interes_ic">🎯 Área de Interés</string>
+    <string name="nivel_educacion_ic">🎓 Nivel de Educación</string>
+    <string name="educacion_text">Educación</string>
+    <string name="experiencia_laboral_text">Experiencia Laboral (años)</string>
+    <string name="ciudad_ic">🏙️ Ciudad</string>
+
+    <!-- Strings used for activity_interwiew_form -->
+    <string name="pantalla_principal_dashboard_text">Pantalla principal - Dashboard</string>
+    <string name="cerrar_sesion_button">Cerrar Sesión</string>
+    <string name="entrvistas_realizadas_ic">📊 Entrevistas realizadas</string>
+    <string name="llenar_formulario_ic">📋 Llenar Formulario de Entrevista</string>
+    <string name="sesion_correcta_ic">✅ Sesión iniciada correctamente con Google</string>
+    <string name="hola_usuario_text">¡Hola, Usuario!</string>
+    <string name="bienvenido_text">¡Bienvenido!</string>
+
+
+
+</resources>
